@@ -1,5 +1,5 @@
 # 💫 About Me:
-Ritesh is a BTech CSE student with a strong interest in AI-driven development and vibe coding. <br>He enjoys continuous learning, daily exploration of new technologies, and hands-on experimentation. <br>Focused on growth through building real-world projects and evolving with modern tech trends.<br>
+BTech CSE student with a strong interest in AI-driven development and vibe coding. I enjoy continuous learning, daily exploration of new technologies, and hands-on experimentation. <br>Focused on growth through building real-world projects and evolving with modern tech trends.<br>
 
 
 ## 🌐 Socials:
