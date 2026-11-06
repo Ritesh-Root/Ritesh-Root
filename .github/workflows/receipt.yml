@@ -1,0 +1,40 @@
+name: Print receipt
+
+on:
+  schedule:
+    - cron: "23 1 * * *"   # daily, 06:53 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [receipt/items.json, receipt/qr.json, scripts/build_receipt.py]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: receipt
+  cancel-in-progress: false
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Print today's receipt
+        run: python3 -I scripts/build_receipt.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+
+      - name: Commit if anything changed
+        run: |
+          git add receipt
+          if git diff --cached --quiet; then
+            echo "Receipt unchanged."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "receipt: reprint $(date -u +%F)"
+          git push

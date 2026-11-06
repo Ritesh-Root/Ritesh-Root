@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="942" viewBox="0 0 456 942" xml:space="preserve" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Ritesh-Root: a receipt for my GitHub</title>
+<desc id="desc">An animated thermal receipt. 89 public original repos, 617 contributions in the last year, active on 85 days, busiest day 85 contributions, top language TypeScript. SHA-256 of receipt/data.json: 67ae7fdf593fc05d8f5872fc5b6dfb9317f05b7cfe97ac14074b1800ba13e96a.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdfaf2"/><stop offset="1" stop-color="#f1e9d6"/>
+  </linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a3a40"/><stop offset="1" stop-color="#1e1e22"/>
+  </linearGradient>
+  <filter id="shadow" x="-10%" y="-5%" width="120%" height="115%">
+    <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity=".28"/>
+  </filter>
+  <filter id="ink" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="1.8"/>
+  </filter>
+  <clipPath id="below-slot"><rect x="0" y="46" width="456" height="942"/></clipPath>
+</defs>
+<style>
+  text { font-family: ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace; font-size: 13.5px; fill: #2a2622; white-space: pre; }
+  .t { font-size: 19px; font-weight: 800; letter-spacing: .5px; }
+  .i { font-style: italic; font-size: 14px; fill: #6b5f4f; }
+  .b { font-weight: 700; }
+  .d { fill: #8a7d6b; font-size: 12px; }
+  .r { fill: #b9ad97; }
+  .h { fill: #4b4339; letter-spacing: .3px; }
+  .ink { fill: #2a2622; }
+  .feed { animation: feed 3.4s steps(34, end) .5s both; }
+  .stamp { transform-box: fill-box; transform-origin: center; opacity: 0;
+           animation: thunk .28s cubic-bezier(.3,1.6,.6,1) 4.2s forwards; }
+  .led { animation: blink .25s steps(2) .5s 14, settle .01s linear 4s forwards; }
+  @keyframes feed { from { transform: translateY(-876px); } to { transform: translateY(0); } }
+  @keyframes thunk { from { opacity: 0; transform: scale(1.9); } to { opacity: .88; transform: scale(1); } }
+  @keyframes blink { from { fill: #34d399; } to { fill: #14532d; } }
+  @keyframes settle { to { fill: #34d399; } }
+  @media (prefers-reduced-motion: reduce) {
+    .feed, .led { animation: none; }
+    .stamp { animation: none; opacity: .88; }
+  }
+</style>
+<g clip-path="url(#below-slot)">
+  <g class="feed">
+    <g transform="translate(32.0 42)">
+      <path d="M0 0 H392 V866 L392.0 866 L378.0 873 L364.0 866 L350.0 873 L336.0 866 L322.0 873 L308.0 866 L294.0 873 L280.0 866 L266.0 873 L252.0 866 L238.0 873 L224.0 866 L210.0 873 L196.0 866 L182.0 873 L168.0 866 L154.0 873 L140.0 866 L126.0 873 L112.0 866 L98.0 873 L84.0 866 L70.0 873 L56.0 866 L42.0 873 L28.0 866 L14.0 873 L0.0 866 Z" fill="url(#paper)" filter="url(#shadow)"/>
+      <text x="196.0" y="34" text-anchor="middle" class="t">RITESH-ROOT GENERAL STORE</text>
+      <text x="196.0" y="62" text-anchor="middle" class="i">AI that shows its receipts</text>
+      <text x="26" y="81" class="p" textLength="340.2" lengthAdjust="spacing">     riteshhoon.online  ·  BTech CSE      </text>
+      <text x="26" y="100" class="r" textLength="340.2" lengthAdjust="spacing">==========================================</text>
+      <text x="26" y="119" class="p" textLength="340.2" lengthAdjust="spacing">RCPT #0425                     06 NOV 2026</text>
+      <text x="26" y="138" class="p" textLength="340.2" lengthAdjust="spacing">CASHIER                     RITESH (HUMAN)</text>
+      <text x="26" y="157" class="r" textLength="340.2" lengthAdjust="spacing">------------------------------------------</text>
+      <text x="26" y="176" class="d" textLength="340.2" lengthAdjust="spacing">QTY ITEM                             WHERE</text>
+      <text x="26" y="195" class="p" textLength="340.2" lengthAdjust="spacing"> 1  switch-notary .... Flip the Switch '26</text>
+      <text x="26" y="214" class="p" textLength="340.2" lengthAdjust="spacing"> 1  aarogya-vayu ...... Top 10, Google C4C</text>
+      <text x="26" y="233" class="p" textLength="340.2" lengthAdjust="spacing"> 1  agora-taste-council  Qloo Agentic Hack</text>
+      <text x="26" y="252" class="p" textLength="340.2" lengthAdjust="spacing"> 1  taxeasy ................ Gemini XPRIZE</text>
+      <text x="26" y="271" class="p" textLength="340.2" lengthAdjust="spacing"> 1  neural-lens .......... 6 AI x-ray labs</text>
+      <text x="26" y="290" class="p" textLength="340.2" lengthAdjust="spacing"> 1  ofrenda ........... Gemma 4+ElevenLabs</text>
+      <text x="26" y="309" class="p" textLength="340.2" lengthAdjust="spacing"> 1  pulsepay-paypal ....... PayPal AI Hack</text>
+      <text x="26" y="328" class="p" textLength="340.2" lengthAdjust="spacing"> 1  hold ...................... Rust + MCP</text>
+      <text x="26" y="347" class="r" textLength="340.2" lengthAdjust="spacing">------------------------------------------</text>
+      <text x="26" y="366" class="p" textLength="340.2" lengthAdjust="spacing">PUBLIC REPOS (ORIGINAL) ............... 89</text>
+      <text x="26" y="385" class="p" textLength="340.2" lengthAdjust="spacing">CONTRIBUTIONS, 365 DAYS .............. 617</text>
+      <text x="26" y="404" class="p" textLength="340.2" lengthAdjust="spacing">ACTIVE DAYS, 365 DAYS ................. 85</text>
+      <text x="26" y="423" class="p" textLength="340.2" lengthAdjust="spacing">BUSIEST DAY ................. 85 ON 19 JUN</text>
+      <text x="26" y="442" class="p" textLength="340.2" lengthAdjust="spacing">TOP LANGUAGE .............. TYPESCRIPT 59%</text>
+      <text x="26" y="461" class="p" textLength="340.2" lengthAdjust="spacing">LAST SHIPPED ............... switch-notary</text>
+      <text x="26" y="480" class="r" textLength="340.2" lengthAdjust="spacing">------------------------------------------</text>
+      <text x="26" y="499" class="p" textLength="340.2" lengthAdjust="spacing">SUBTOTAL                  many late nights</text>
+      <text x="26" y="518" class="p" textLength="340.2" lengthAdjust="spacing">GST @ 18%                 filed by TaxEasy</text>
+      <text x="26" y="537" class="b" textLength="340.2" lengthAdjust="spacing">TOTAL                     1 DEMO THAT RUNS</text>
+      <text x="26" y="556" class="r" textLength="340.2" lengthAdjust="spacing">==========================================</text>
+      <text x="26" y="575" class="p" textLength="340.2" lengthAdjust="spacing">PAID BY                          CHAI, UPI</text>
+      <text x="26" y="594" class="p" textLength="340.2" lengthAdjust="spacing">CHANGE                                0.00</text>
+      <g transform="translate(26 608) scale(3.2)"><rect width="27" height="27" fill="#fffdf6"/><path transform="translate(1 1)" d="M0 0h7v1h-7zM8 0h1v1h-1zM10 0h1v1h-1zM12 0h1v1h-1zM14 0h1v1h-1zM18 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h2v1h-2zM11 1h1v1h-1zM16 1h1v1h-1zM18 1h1v1h-1zM24 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h2v1h-2zM11 2h1v1h-1zM13 2h1v1h-1zM18 2h1v1h-1zM20 2h3v1h-3zM24 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM9 3h3v1h-3zM13 3h4v1h-4zM18 3h1v1h-1zM20 3h3v1h-3zM24 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h1v1h-1zM10 4h2v1h-2zM13 4h2v1h-2zM16 4h1v1h-1zM18 4h1v1h-1zM20 4h3v1h-3zM24 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM12 5h3v1h-3zM18 5h1v1h-1zM24 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h7v1h-7zM9 7h3v1h-3zM13 7h4v1h-4zM0 8h1v1h-1zM3 8h6v1h-6zM12 8h1v1h-1zM14 8h1v1h-1zM16 8h2v1h-2zM20 8h1v1h-1zM22 8h3v1h-3zM0 9h1v1h-1zM2 9h1v1h-1zM5 9h1v1h-1zM9 9h2v1h-2zM12 9h4v1h-4zM19 9h5v1h-5zM1 10h2v1h-2zM6 10h2v1h-2zM9 10h1v1h-1zM12 10h2v1h-2zM15 10h1v1h-1zM17 10h1v1h-1zM21 10h1v1h-1zM24 10h1v1h-1zM4 11h2v1h-2zM8 11h1v1h-1zM11 11h1v1h-1zM14 11h1v1h-1zM16 11h1v1h-1zM18 11h1v1h-1zM21 11h4v1h-4zM2 12h7v1h-7zM10 12h3v1h-3zM16 12h1v1h-1zM18 12h1v1h-1zM24 12h1v1h-1zM0 13h1v1h-1zM2 13h1v1h-1zM4 13h1v1h-1zM7 13h1v1h-1zM10 13h1v1h-1zM12 13h1v1h-1zM14 13h4v1h-4zM20 13h1v1h-1zM23 13h1v1h-1zM0 14h3v1h-3zM4 14h5v1h-5zM10 14h1v1h-1zM12 14h1v1h-1zM14 14h5v1h-5zM20 14h5v1h-5zM0 15h1v1h-1zM2 15h3v1h-3zM7 15h3v1h-3zM12 15h1v1h-1zM14 15h1v1h-1zM16 15h1v1h-1zM18 15h2v1h-2zM21 15h2v1h-2zM24 15h1v1h-1zM0 16h1v1h-1zM2 16h1v1h-1zM6 16h1v1h-1zM11 16h3v1h-3zM16 16h5v1h-5zM22 16h2v1h-2zM8 17h1v1h-1zM10 17h4v1h-4zM16 17h1v1h-1zM20 17h1v1h-1zM22 17h2v1h-2zM0 18h7v1h-7zM8 18h4v1h-4zM13 18h1v1h-1zM16 18h1v1h-1zM18 18h1v1h-1zM20 18h1v1h-1zM24 18h1v1h-1zM0 19h1v1h-1zM6 19h1v1h-1zM8 19h1v1h-1zM13 19h4v1h-4zM20 19h1v1h-1zM23 19h2v1h-2zM0 20h1v1h-1zM2 20h3v1h-3zM6 20h1v1h-1zM8 20h3v1h-3zM12 20h1v1h-1zM14 20h7v1h-7zM0 21h1v1h-1zM2 21h3v1h-3zM6 21h1v1h-1zM8 21h4v1h-4zM13 21h3v1h-3zM17 21h2v1h-2zM23 21h2v1h-2zM0 22h1v1h-1zM2 22h3v1h-3zM6 22h1v1h-1zM10 22h3v1h-3zM14 22h2v1h-2zM17 22h1v1h-1zM20 22h5v1h-5zM0 23h1v1h-1zM6 23h1v1h-1zM14 23h2v1h-2zM18 23h3v1h-3zM22 23h3v1h-3zM0 24h7v1h-7zM8 24h1v1h-1zM12 24h1v1h-1zM16 24h1v1h-1zM18 24h1v1h-1zM21 24h1v1h-1zM24 24h1v1h-1z" class="ink"/></g>
+      <text x="128.4" y="634" class="b">SCAN FOR THE</text>
+      <text x="128.4" y="653" class="b">FULL PORTFOLIO</text>
+      <text x="128.4" y="677.7" class="d">reprinted daily by</text>
+      <text x="128.4" y="696.7" class="d">GitHub Actions</text>
+      <text x="26" y="729.7" class="d" textLength="340.2" lengthAdjust="spacing">       SHA-256 OF receipt/data.json       </text>
+      <text x="26" y="748.7" class="h" textLength="340.2" lengthAdjust="spacing">     67ae7fdf593fc05d8f5872fc5b6dfb93     </text>
+      <text x="26" y="767.7" class="h" textLength="340.2" lengthAdjust="spacing">     17f05b7cfe97ac14074b1800ba13e96a     </text>
+      <text x="26" y="798.1" class="b" textLength="340.2" lengthAdjust="spacing">        NO CLAIM WITHOUT A RECEIPT        </text>
+      <text x="26" y="817.1" class="p" textLength="340.2" lengthAdjust="spacing">     THANK YOU  ·  PLEASE COME AGAIN      </text>
+      <text x="26" y="836.1" class="d" textLength="340.2" lengthAdjust="spacing">          *** CUSTOMER COPY ***           </text>
+      <g transform="translate(202.0 579) rotate(-11)">
+        <g class="stamp" filter="url(#ink)">
+          <rect x="-86" y="-27" width="172" height="54" rx="7" fill="none" stroke="#c0392b" stroke-width="3.2"/>
+          <rect x="-80" y="-21" width="160" height="42" rx="4" fill="none" stroke="#c0392b" stroke-width="1.2"/>
+          <text x="0" y="3" text-anchor="middle" style="font-size:22px;font-weight:900;fill:#c0392b;letter-spacing:3px">VERIFIED</text>
+          <text x="0" y="17" text-anchor="middle" style="font-size:8.5px;font-weight:700;fill:#c0392b;letter-spacing:1.5px">BY GITHUB API · 06.11.26</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+<rect x="10.0" y="6" width="436" height="40" rx="12" fill="url(#body)"/>
+<rect x="24.0" y="37" width="408" height="5" rx="2.5" fill="#0b0b0d"/>
+<circle cx="32.0" cy="22" r="4" fill="#34d399" class="led"/>
+<text x="46.0" y="26" style="font-size:10.5px;fill:#a1a1aa;letter-spacing:2px">PRINTING YOUR VISIT</text>
+<text x="424.0" y="26" text-anchor="end" style="font-size:10.5px;fill:#71717a;letter-spacing:1px">RITESH-ROOT·TM-42</text>
+</svg>
