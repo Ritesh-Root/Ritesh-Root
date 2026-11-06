@@ -18,6 +18,12 @@ If the hashes don't match, the receipt is wrong. If they're only out of sync for
 
 I'm a BTech CSE student who builds at hackathons, mostly AI agents that have to show their work. The common thread: an AI shouldn't get to say *"done"* unless it has a receipt to back it up, like a signed check, a hash-chained log, a quote from the source, or a human approval.
 
+### Vital signs
+
+<img src="receipt/pulse.svg" width="100%" alt="My last 52 weeks of GitHub contributions drawn as an ECG strip: one heartbeat per week, with the biggest spikes labelled by the project behind them.">
+
+<sub>The same year as the green squares below, drawn as an ECG. One heartbeat per week; the tallest spikes are labelled with the public repo that got the most commits that week. It comes from the same <code>data.json</code>, so it's covered by the same hash.</sub>
+
 ### Itemised
 
 | | Project | What it does |

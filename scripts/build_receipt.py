@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Print today's receipt: pull public GitHub stats, write receipt/data.json,
-then render receipt/receipt.svg with the SHA-256 of that JSON printed on it.
+then render receipt/receipt.svg (with the SHA-256 of that JSON printed on it)
+and receipt/pulse.svg (the same year drawn as an ECG strip).
 
 Standard library only. Needs GITHUB_TOKEN; PROFILE_LOGIN defaults to Ritesh-Root.
 If the API call fails the script exits non-zero and nothing is overwritten.
@@ -13,6 +14,9 @@ import pathlib
 import sys
 import urllib.request
 from xml.sax.saxutils import escape
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from pulse import render_pulse  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "receipt"
@@ -32,7 +36,11 @@ query($login: String!, $after: String) {
     contributionsCollection {
       contributionCalendar {
         totalContributions
-        weeks { contributionDays { date contributionCount } }
+        weeks { firstDay contributionDays { date contributionCount } }
+      }
+      commitContributionsByRepository(maxRepositories: 100) {
+        repository { name }
+        contributions(first: 100) { nodes { occurredAt commitCount } }
       }
     }
   }
@@ -82,6 +90,21 @@ def build_data(user, repos, today):
     top = max(langs.items(), key=lambda kv: (kv[1], kv[0])) if langs else ("-", 0)
     with_lang = sum(langs.values()) or 1
 
+    # one entry per week, plus which public repo got the most commits that week
+    day_week = {d["date"]: i for i, w in enumerate(cal["weeks"]) for d in w["contributionDays"]}
+    per_week = [{} for _ in cal["weeks"]]
+    for entry in user["contributionsCollection"]["commitContributionsByRepository"]:
+        name = entry["repository"]["name"]
+        for n in entry["contributions"]["nodes"]:
+            i = day_week.get(n["occurredAt"][:10])
+            if i is not None:
+                per_week[i][name] = per_week[i].get(name, 0) + n["commitCount"]
+    weeks = [{
+        "start": w["firstDay"],
+        "contributions": sum(d["contributionCount"] for d in w["contributionDays"]),
+        "top_public_repo": max(sorted(per_week[i]), key=per_week[i].get) if per_week[i] else None,
+    } for i, w in enumerate(cal["weeks"])]
+
     shipped = next((r for r in repos if r["name"].lower() != LOGIN.lower()), None)
     created = dt.date.fromisoformat(user["createdAt"][:10])
 
@@ -95,6 +118,7 @@ def build_data(user, repos, today):
         "busiest_day": {"date": busiest[0], "contributions": busiest[1]},
         "top_language": {"name": top[0], "share_of_repos_pct": round(100 * top[1] / with_lang)},
         "last_shipped": {"repo": shipped["name"], "pushed_at": shipped["pushedAt"]} if shipped else None,
+        "weeks": weeks,
         "source": "GitHub GraphQL API via .github/workflows/receipt.yml",
     }
 
@@ -302,6 +326,7 @@ def main():
     svg = render(data, items, qr, digest)
     (OUT / "data.json").write_bytes(raw)
     (OUT / "receipt.svg").write_text(svg)
+    (OUT / "pulse.svg").write_text(render_pulse(data, LOGIN))
     print(f"printed receipt for {LOGIN}: sha256 {digest}")
 
 
