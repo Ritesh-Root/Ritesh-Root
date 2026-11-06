@@ -1,5 +1,5 @@
 {
-  "active_days_last_year": 85,
+  "active_days_last_year": 86,
   "as_of": "2026-11-06",
   "busiest_day": {
     "contributions": 85,
@@ -16,6 +16,6 @@
   "source": "GitHub GraphQL API via .github/workflows/receipt.yml",
   "top_language": {
     "name": "TypeScript",
-    "share_of_repos_pct": 59
+    "share_of_repos_pct": 58
   }
 }
