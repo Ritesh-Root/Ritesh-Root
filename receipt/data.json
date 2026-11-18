@@ -1,22 +1,22 @@
 {
-  "active_days_last_year": 87,
-  "as_of": "2026-11-17",
+  "active_days_last_year": 89,
+  "as_of": "2026-11-18",
   "busiest_day": {
     "contributions": 85,
     "date": "2026-06-19"
   },
-  "contributions_last_year": 623,
-  "days_on_github": 436,
+  "contributions_last_year": 626,
+  "days_on_github": 437,
   "last_shipped": {
-    "pushed_at": "2026-11-15T14:58:43Z",
-    "repo": "preread"
+    "pushed_at": "2026-11-17T22:44:09Z",
+    "repo": "smogwise"
   },
   "login": "Ritesh-Root",
-  "public_original_repos": 91,
+  "public_original_repos": 92,
   "source": "GitHub GraphQL API via .github/workflows/receipt.yml",
   "top_language": {
     "name": "TypeScript",
-    "share_of_repos_pct": 57
+    "share_of_repos_pct": 56
   },
   "weeks": [
     {
@@ -100,12 +100,12 @@
       "top_public_repo": "Ai-creep-avoid"
     },
     {
-      "contributions": 30,
+      "contributions": 28,
       "start": "2026-03-08",
       "top_public_repo": "pulsepay"
     },
     {
-      "contributions": 17,
+      "contributions": 16,
       "start": "2026-03-15",
       "top_public_repo": "pulsepay"
     },
@@ -280,7 +280,7 @@
       "top_public_repo": null
     },
     {
-      "contributions": 6,
+      "contributions": 12,
       "start": "2026-11-15",
       "top_public_repo": "aegis-rs"
     }
