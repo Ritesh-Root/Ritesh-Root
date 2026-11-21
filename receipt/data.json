@@ -1,12 +1,12 @@
 {
   "active_days_last_year": 90,
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "busiest_day": {
     "contributions": 85,
     "date": "2026-06-19"
   },
   "contributions_last_year": 628,
-  "days_on_github": 439,
+  "days_on_github": 440,
   "last_shipped": {
     "pushed_at": "2026-11-17T22:44:09Z",
     "repo": "smogwise"
