@@ -1,14 +1,14 @@
 {
-  "active_days_last_year": 90,
-  "as_of": "2026-11-21",
+  "active_days_last_year": 91,
+  "as_of": "2026-11-22",
   "busiest_day": {
     "contributions": 85,
     "date": "2026-06-19"
   },
-  "contributions_last_year": 628,
-  "days_on_github": 440,
+  "contributions_last_year": 629,
+  "days_on_github": 441,
   "last_shipped": {
-    "pushed_at": "2026-11-17T22:44:09Z",
+    "pushed_at": "2026-11-21T09:53:37Z",
     "repo": "smogwise"
   },
   "login": "Ritesh-Root",
@@ -19,11 +19,6 @@
     "share_of_repos_pct": 56
   },
   "weeks": [
-    {
-      "contributions": 0,
-      "start": "2025-11-16",
-      "top_public_repo": null
-    },
     {
       "contributions": 0,
       "start": "2025-11-23",
@@ -280,9 +275,14 @@
       "top_public_repo": null
     },
     {
-      "contributions": 14,
+      "contributions": 15,
       "start": "2026-11-15",
       "top_public_repo": "aegis-rs"
+    },
+    {
+      "contributions": 0,
+      "start": "2026-11-22",
+      "top_public_repo": null
     }
   ]
 }
