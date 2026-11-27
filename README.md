@@ -24,6 +24,13 @@ I'm a BTech CSE student who builds at hackathons, mostly AI agents that have to 
 
 <sub>The same year as the green squares below, drawn as an ECG. One heartbeat per week; the tallest spikes are labelled with the public repo that got the most commits that week. It comes from the same <code>data.json</code>, so it's covered by the same hash.</sub>
 
+### Research
+
+| | Paper | What it is |
+|---|---|---|
+| 📄 | [**Do Agents Misreport What They Did?**](https://riteshhoon.online/research/agent-self-report-study) · [PDF](https://riteshhoon.online/research/agent-self-report-study.pdf) · [data](https://github.com/Ritesh-Root/agent-self-report-study) | Technical report, Nov 2026. A pilot study that scores agents' self-reports in code against a ledger only the executor writes, plus a guard that checks claims before delivery. Not peer reviewed; erratum included. |
+| 📚 | [**Do AI Agents Misreport What They Did? A survey**](https://riteshhoon.online/research/agent-self-report-survey) · [PDF](https://riteshhoon.online/research/agent-self-report-survey.pdf) · [sources and checks](https://github.com/Ritesh-Root/agent-self-report-survey) | Survey, Nov 2026, 152 sources on self-report faithfulness and claim verification for tool-using LLM agents. Every quote and reference was checked by code. Not peer reviewed. |
+
 ### Itemised
 
 | | Project | What it does |
