@@ -1,22 +1,22 @@
 {
-  "active_days_last_year": 92,
-  "as_of": "2026-11-27",
+  "active_days_last_year": 94,
+  "as_of": "2026-11-28",
   "busiest_day": {
     "contributions": 85,
     "date": "2026-06-19"
   },
-  "contributions_last_year": 647,
-  "days_on_github": 446,
+  "contributions_last_year": 654,
+  "days_on_github": 447,
   "last_shipped": {
-    "pushed_at": "2026-11-25T20:41:33Z",
-    "repo": "aarogya-vayu-2036"
+    "pushed_at": "2026-11-27T19:00:15Z",
+    "repo": "darkflag"
   },
   "login": "Ritesh-Root",
-  "public_original_repos": 95,
+  "public_original_repos": 97,
   "source": "GitHub GraphQL API via .github/workflows/receipt.yml",
   "top_language": {
     "name": "TypeScript",
-    "share_of_repos_pct": 56
+    "share_of_repos_pct": 55
   },
   "weeks": [
     {
@@ -105,7 +105,7 @@
       "top_public_repo": "pulsepay"
     },
     {
-      "contributions": 4,
+      "contributions": 3,
       "start": "2026-03-22",
       "top_public_repo": "Fixit-automation-home-system-"
     },
@@ -280,7 +280,7 @@
       "top_public_repo": "aegis-rs"
     },
     {
-      "contributions": 19,
+      "contributions": 27,
       "start": "2026-11-22",
       "top_public_repo": "stripsafe"
     }
